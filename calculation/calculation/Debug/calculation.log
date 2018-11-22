@@ -1,0 +1,5 @@
+﻿  Input_number.c
+c:\users\keito\documents\c++lessons\calculation\calculation\input_number.c(87): warning C4047: 'return': 間接参照のレベルが 'char' と 'char *' で異なっています。
+  calc.c
+  コードを生成中...
+  calculation.vcxproj -> C:\Users\keito\Documents\C++lessons\calculation\Debug\calculation.exe
