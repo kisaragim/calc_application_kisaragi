@@ -1,5 +1,7 @@
-﻿  Input_number.c
-c:\users\keito\documents\c++lessons\calculation\calculation\input_number.c(87): warning C4047: 'return': 間接参照のレベルが 'char' と 'char *' で異なっています。
-  calc.c
+﻿  calc.c
+  Input_number.c
+c:\users\keito\documents\c++lessons\github_calc\calculation\calculation\input_number.c(84): warning C4047: 'return': 間接参照のレベルが 'char' と 'char *' で異なっています。
+  main.c
+c:\users\keito\documents\c++lessons\github_calc\calculation\calculation\main.c(14): warning C4133: '関数': 'double *' と 'const char *' の間で型に互換性がありません。
   コードを生成中...
-  calculation.vcxproj -> C:\Users\keito\Documents\C++lessons\calculation\Debug\calculation.exe
+  calculation.vcxproj -> C:\Users\keito\Documents\C++lessons\github_calc\calculation\Debug\calculation.exe
