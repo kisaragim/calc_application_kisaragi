@@ -1,0 +1,14 @@
+#Test suite file data.
+#Wed Nov 28 15:35:15 GMT+09:00 2018
+timestamp=1543386915950
+test_suite_context=../../../\u30BD\u30FC\u30B9 \u30D5\u30A1\u30A4\u30EB/calc.c
+test_case_contexts=void calculation(char *)@@TCC@@
+test_suites=TestSuite_calc_c_c315b8dd,TestSuite_calc_c_c315b8dd_calculation^16'CPPTEST_DS("calc")@@TCS@@@@TSS@@
+defined=true
+test_suite_included_by=../../../\u30BD\u30FC\u30B9 \u30D5\u30A1\u30A4\u30EB/calc.c
+registered=true
+test_suite_description=
+test_suite_names=TestSuite_calc_c_c315b8dd@@TSN@@
+fileVersion=5
+test_suite_additional_stubs=
+test_cases_properties=TestSuite_calc_c_c315b8dd,TestSuite_calc_c_c315b8dd_calculation;GRS\=@@PPS@@TCC\=void calculation(char *)@@PPS@@TCD\=@@PPS@@TCCBCKS\=@@PPS@@TCE\=true@@PPS@@@@TCS@@@@TSS@@

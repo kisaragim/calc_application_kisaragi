@@ -1,0 +1,18 @@
+xharness.routineManager "symbol_file=C:\Program Files (x86)\Parasoft\C++test for Visual Studio\10.4\engine\runtime\include/*" command=setProperty property=ignored value=true
+edg.errorThreshold es_discretionary_error
+edgtk.preprocessorExecutable cl.exe
+xharness.ildbFile C:\unittest_calc\calculation\.cpptest\calculation\file-data\calc.c8ab806c7\tested\harness_ildb.xml
+xharness.symbolsFile C:\unittest_calc\calculation\.cpptest\calculation\file-data\calc.c8ab806c7\tested\harness_symbols.xml
+xharness.unwantedDeclHeaderInAutoStubConfig calc.c
+xharness.coverageMapFile C:\unittest_calc\calculation\.cpptest\calculation\file-data\calc.c8ab806c7\tested\new_coverage.map
+xharness.testRunnerDataFile C:\unittest_calc\calculation\.cpptest\calculation\file-data\calc.c8ab806c7\tested\harness_testrunner.xml
+xharness.preIncludeHeader C:\unittest_calc\calculation\.cpptest\calculation\unit-data\current_tubf179707\cpptest_stubconfig.h
+xharness.useFunctionHitCount true
+xharness.useStatementHitCount true
+xharness.proxyStubCall false
+xharness.routineManager symbol_file=* command=setProperty property=canCreateStubsIn value=off
+xharness.routineManager "symbol_file=C:\unittest_calc\calculation\calculation\calc.c" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=c:\unittest_calc\calculation\calculation\calculation.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager symbol_file=* command=setProperty property=canAddCoverageIn value=off
+xharness.routineManager "symbol_file=C:\unittest_calc\calculation\calculation\calc.c" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=c:\unittest_calc\calculation\calculation\calculation.h" command=setProperty property=canAddCoverageIn value=on

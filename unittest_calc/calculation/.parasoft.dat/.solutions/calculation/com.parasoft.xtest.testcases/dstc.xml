@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><TestsRun>
+   <Project name="calculation">
+      <TestCase id="CPP://7648608383788553114">
+         <dsTest id="440944471099308871" iteration="18" testParams="Data source row: 18"/>
+         <dsTest id="440944471099308932" iteration="37" testParams="Data source row: 37"/>
+         <dsTest id="8940067921830405908" iteration="4" testParams="Data source row: 4"/>
+         <dsTest id="440944471099308957" iteration="41" testParams="Data source row: 41"/>
+         <dsTest id="440944471099308927" iteration="32" testParams="Data source row: 32"/>
+         <dsTest id="8940067921830405912" iteration="8" testParams="Data source row: 8"/>
+         <dsTest id="440944471099308900" iteration="26" testParams="Data source row: 26"/>
+         <dsTest id="440944471099308925" iteration="30" testParams="Data source row: 30"/>
+         <dsTest id="8940067921830405909" iteration="5" testParams="Data source row: 5"/>
+         <dsTest id="440944471099308928" iteration="33" testParams="Data source row: 33"/>
+         <dsTest id="8940067921830405906" iteration="2" testParams="Data source row: 2"/>
+         <dsTest id="440944471099308958" iteration="42" testParams="Data source row: 42"/>
+         <dsTest id="8940067921830405907" iteration="3" testParams="Data source row: 3"/>
+         <dsTest id="8940067921830405910" iteration="6" testParams="Data source row: 6"/>
+         <dsTest id="440944471099308926" iteration="31" testParams="Data source row: 31"/>
+         <dsTest id="440944471099308930" iteration="35" testParams="Data source row: 35"/>
+         <dsTest id="440944471099308899" iteration="25" testParams="Data source row: 25"/>
+         <dsTest id="440944471099308894" iteration="20" testParams="Data source row: 20"/>
+         <dsTest id="440944471099308867" iteration="14" testParams="Data source row: 14"/>
+         <dsTest id="8940067921830405913" iteration="9" testParams="Data source row: 9"/>
+         <dsTest id="440944471099308933" iteration="38" testParams="Data source row: 38"/>
+         <dsTest id="440944471099308903" iteration="29" testParams="Data source row: 29"/>
+         <dsTest id="440944471099308872" iteration="19" testParams="Data source row: 19"/>
+         <dsTest id="8940067921830405905" iteration="1" testParams="Data source row: 1"/>
+         <dsTest id="440944471099308868" iteration="15" testParams="Data source row: 15"/>
+         <dsTest id="440944471099308866" iteration="13" testParams="Data source row: 13"/>
+         <dsTest id="440944471099308897" iteration="23" testParams="Data source row: 23"/>
+         <dsTest id="440944471099308865" iteration="12" testParams="Data source row: 12"/>
+         <dsTest id="440944471099308902" iteration="28" testParams="Data source row: 28"/>
+         <dsTest id="440944471099308931" iteration="36" testParams="Data source row: 36"/>
+         <dsTest id="440944471099308896" iteration="22" testParams="Data source row: 22"/>
+         <dsTest id="440944471099308901" iteration="27" testParams="Data source row: 27"/>
+         <dsTest id="440944471099308898" iteration="24" testParams="Data source row: 24"/>
+         <dsTest id="8940067921830405911" iteration="7" testParams="Data source row: 7"/>
+         <dsTest id="440944471099308870" iteration="17" testParams="Data source row: 17"/>
+         <dsTest id="440944471099308929" iteration="34" testParams="Data source row: 34"/>
+         <dsTest id="440944471099308895" iteration="21" testParams="Data source row: 21"/>
+         <dsTest id="440944471099308863" iteration="10" testParams="Data source row: 10"/>
+         <dsTest id="440944471099308869" iteration="16" testParams="Data source row: 16"/>
+         <dsTest id="440944471099308956" iteration="40" testParams="Data source row: 40"/>
+         <dsTest id="440944471099308934" iteration="39" testParams="Data source row: 39"/>
+         <dsTest id="440944471099308864" iteration="11" testParams="Data source row: 11"/>
+      </TestCase>
+      <TestCase id="CPP://-576087162648775499">
+         <dsTest id="38671817271084482" iteration="1" testParams="Data source row: 1"/>
+      </TestCase>
+      <TestCase id="CPP://-4705887764426374995">
+         <dsTest id="6122100540063946867" iteration="11" testParams="Data source row: 11"/>
+         <dsTest id="-6348131750669068412" iteration="7" testParams="Data source row: 7"/>
+         <dsTest id="-6348131750669068414" iteration="5" testParams="Data source row: 5"/>
+         <dsTest id="-6348131750669068415" iteration="4" testParams="Data source row: 4"/>
+         <dsTest id="6122100540063946868" iteration="12" testParams="Data source row: 12"/>
+         <dsTest id="-6348131750669068413" iteration="6" testParams="Data source row: 6"/>
+         <dsTest id="6122100540063946869" iteration="13" testParams="Data source row: 13"/>
+         <dsTest id="-6348131750669068410" iteration="9" testParams="Data source row: 9"/>
+         <dsTest id="-6348131750669068411" iteration="8" testParams="Data source row: 8"/>
+         <dsTest id="-6348131750669068418" iteration="1" testParams="Data source row: 1"/>
+         <dsTest id="6122100540063946870" iteration="14" testParams="Data source row: 14"/>
+         <dsTest id="-6348131750669068417" iteration="2" testParams="Data source row: 2"/>
+         <dsTest id="6122100540063946871" iteration="15" testParams="Data source row: 15"/>
+         <dsTest id="-6348131750669068416" iteration="3" testParams="Data source row: 3"/>
+         <dsTest id="6122100540063946866" iteration="10" testParams="Data source row: 10"/>
+      </TestCase>
+   </Project>
+</TestsRun>

@@ -1,0 +1,10 @@
+xharness.routineManager "symbol_file=C:\Program Files (x86)\Parasoft\C++test for Visual Studio\10.4\engine\runtime\include/*" command=setProperty property=ignored value=true
+libdetector.ldvLinkerExecutable link.exe
+symmatcher.storeConfig C:\unittest_calc\calculation\.cpptest\calculation\unit-data\current_tubf179707\lsi_result
+lsi.symbolsFile C:\unittest_calc\calculation\.cpptest\calculation\file-data\calc.c8ab806c7\tested\harness_symbols.xml
+lsi.symbolsFile C:\unittest_calc\calculation\.cpptest\calculation\file-data\Input_number.cfc12b6b0\adds\harness_symbols.xml
+lsi.symbolsFile C:\unittest_calc\calculation\.cpptest\calculation\file-data\main.c9bc7492b\adds\harness_symbols.xml
+lsi.symbolsFile C:\unittest_calc\calculation\.cpptest\calculation\file-data\check.ce7df4680\harness_symbols.xml
+libdetector.doDetectLibraries on
+symmatcher.doAssumeAllInLibraries off
+lsi.cacheDir C:\unittest_calc\calculation\.cpptest\calculation\unit-data\current_tubf179707\lsi_cache

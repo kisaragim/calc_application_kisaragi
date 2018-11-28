@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><SymbolsConfig formatVersion="1.0" toolName="C++Test">
+<Function id="printf" type="orig"/>
+<Function id="__acrt_iob_func" type="orig"/>
+<Function id="mblen" type="orig"/>
+<Function id="___mb_cur_max_func" type="orig"/>
+<Function id="setlocale" type="orig"/>
+<Function id="Input_number" type="orig"/>
+<Function id="Delete_space" type="orig"/>
+<Function id="strcpy" type="orig"/>
+<Function id="calculation" type="orig"/>
+<Function id="Check_number" type="user"/>
+<Function id="fgets" type="orig"/>
+<Function id="strlen" type="orig"/>
+<Function id="floor" type="orig"/>
+<Function id="isspace" type="orig"/>
+<Function id="atof" type="orig"/>
+<Function id="output" type="orig"/>
+</SymbolsConfig>

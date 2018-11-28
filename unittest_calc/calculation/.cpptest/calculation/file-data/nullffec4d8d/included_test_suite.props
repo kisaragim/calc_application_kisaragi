@@ -1,0 +1,14 @@
+#Test suite file data.
+#Tue Nov 27 16:28:50 GMT+09:00 2018
+timestamp=1543303730592
+test_suite_context=../../../\u30BD\u30FC\u30B9 \u30D5\u30A1\u30A4\u30EB/calc.c
+test_case_contexts=
+test_suites=TestSuite_calc_c_3951d185,@@TSS@@
+defined=true
+test_suite_included_by=../../../\u30BD\u30FC\u30B9 \u30D5\u30A1\u30A4\u30EB/calc.c
+registered=true
+test_suite_description=
+test_suite_names=TestSuite_calc_c_3951d185@@TSN@@
+fileVersion=5
+test_suite_additional_stubs=
+test_cases_properties=

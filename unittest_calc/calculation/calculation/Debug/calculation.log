@@ -1,0 +1,3 @@
+﻿  main.c
+c:\unittest_calc\calculation\calculation\main.c(14): warning C4133: '関数': 'double *' と 'const char *' の間で型に互換性がありません。
+  calculation.vcxproj -> C:\unittest_calc\calculation\Debug\calculation.exe

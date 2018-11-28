@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mergePnt id="csViolations">
+  <StdViols>
+    <FlowViol sev="2" ln="12" hash="1280190152" urgent="true" ruleSCSCMsg="メソッド呼び出し" tool="c++test" locType="sr" lang="cpp" msg="メソッド fgets から返される値をチェックするべきである" id="1811795340" rule="BD-PB-CHECKRETGEN" config="4" ruleSAFMsg="返された値をここまでにチェックするべきポイント" auth="keito" FirstElSrcRngStartln="12" FirstElSrcRngStartPos="0" FirstElSrcRngEndLn="13" FirstElSrcRngEndPos="0" FirstElSrcRngFile="calculation/calculation/ソース ファイル/Input_number.c" locStartln="12" locStartPos="0" locEndLn="13" locEndPos="0" locFile="calculation/calculation/ソース ファイル/Input_number.c">
+      <Props />
+      <ElDescList>
+        <ElDesc srcRngStartln="11" srcRngStartPos="0" srcRngEndLn="12" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="11" ElType="." desc="char calc[600];" rngLn="11">
+          <Props />
+        </ElDesc>
+        <ElDesc srcRngStartln="12" srcRngStartPos="0" srcRngEndLn="13" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="12" ElType="CP" desc="fgets(calc, 600, stdin);" rngLn="12">
+          <Props />
+          <Anns>
+            <Ann msg="メソッド呼び出し" kind="cause" />
+            <Ann msg="返された値をここまでにチェックするべきポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol sev="2" ln="17" hash="1280190152" urgent="true" ruleSCSCMsg="文字列が取得されるポイント" tool="c++test" locType="sr" lang="cpp" msg="&quot;fgets&quot; メソッドの文字列 &quot;calc&quot; が使用されているが、リセットされていなかった" id="1188678098" rule="BD-PB-FGETS" config="4" ruleSAFMsg="文字列が使用される場所" auth="keito" FirstElSrcRngStartln="12" FirstElSrcRngStartPos="0" FirstElSrcRngEndLn="13" FirstElSrcRngEndPos="0" FirstElSrcRngFile="calculation/calculation/ソース ファイル/Input_number.c" locStartln="17" locStartPos="0" locEndLn="18" locEndPos="0" locFile="calculation/calculation/ソース ファイル/Input_number.c">
+      <Props />
+      <ElDescList>
+        <ElDesc srcRngStartln="12" srcRngStartPos="0" srcRngEndLn="13" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="12" ElType=".C" desc="fgets(calc, 600, stdin);" rngLn="12">
+          <Props />
+          <Anns>
+            <Ann msg="文字列が取得されるポイント" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc srcRngStartln="13" srcRngStartPos="0" srcRngEndLn="14" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="13" ElType="." desc="int len , len2 , i=0;" rngLn="13">
+          <Props />
+        </ElDesc>
+        <ElDesc srcRngStartln="17" srcRngStartPos="0" srcRngEndLn="18" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="17" ElType=".P" desc="len2 = strlen(calc);" rngLn="17">
+          <Props />
+          <Anns>
+            <Ann msg="文字列が使用される場所" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol sev="1" ln="40" hash="1280190152" urgent="true" ruleSCSCMsg="汚染ポイント" tool="c++test" locType="sr" lang="cpp" msg="汚染された ファイルからのデータ (&quot;calc[len2]&quot;) が コンソール に出力された" id="498311772" rule="BD-SECURITY-TDCONSOLE" config="4" ruleSAFMsg="危険なメソッド呼び出し" auth="keito" FirstElSrcRngStartln="12" FirstElSrcRngStartPos="0" FirstElSrcRngEndLn="13" FirstElSrcRngEndPos="0" FirstElSrcRngFile="calculation/calculation/ソース ファイル/Input_number.c" locStartln="40" locStartPos="0" locEndLn="41" locEndPos="0" locFile="calculation/calculation/ソース ファイル/Input_number.c">
+      <Props>
+        <Prop key="Tracked variables" val="汚染されたデータ" />
+      </Props>
+      <ElDescList>
+        <ElDesc srcRngStartln="11" srcRngStartPos="0" srcRngEndLn="12" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="11" ElType="." desc="char calc[600];" rngLn="11">
+          <Props />
+        </ElDesc>
+        <ElDesc srcRngStartln="12" srcRngStartPos="0" srcRngEndLn="13" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="12" ElType=".C" desc="fgets(calc, 600, stdin);" rngLn="12">
+          <Props>
+            <Prop key="Tracked variables" val="calc[&lt;インデックス>]" />
+          </Props>
+          <Anns>
+            <Ann msg="汚染ポイント" kind="cause" />
+            <Ann msg="汚染されたデータ: calc[&lt;インデックス>]" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc srcRngStartln="13" srcRngStartPos="0" srcRngEndLn="14" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="13" ElType="." desc="int len , len2 , i=0;" rngLn="13">
+          <Props />
+        </ElDesc>
+        <ElDesc srcRngStartln="17" srcRngStartPos="0" srcRngEndLn="18" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="17" ElType="!" desc="len2 = strlen(calc);" rngLn="17">
+          <Props />
+        </ElDesc>
+        <ElDesc srcRngStartln="18" srcRngStartPos="0" srcRngEndLn="19" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="18" ElType="." desc="setlocale(LC_CTYPE, &quot;jpn&quot;);" rngLn="18">
+          <Props>
+            <Prop key="Tracked variables" val="calc[len2]" />
+          </Props>
+          <Anns>
+            <Ann msg="汚染されたデータ: calc[len2]" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc srcRngStartln="19" srcRngStartPos="0" srcRngEndLn="20" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="19" ElType="." desc="for (i = 0; i &lt; len2; i++) {" rngLn="19">
+          <Props />
+          <Anns>
+            <Ann msg="ループ条件評価: (i &lt; len2) (true を仮定)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc srcRngStartln="20" srcRngStartPos="0" srcRngEndLn="21" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="20" ElType="." desc="len = mblen(&amp;calc[i], MB_CUR_MAX);" rngLn="20">
+          <Props />
+        </ElDesc>
+        <ElDesc srcRngStartln="22" srcRngStartPos="0" srcRngEndLn="23" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="22" ElType="." desc="if (len == 2 )" rngLn="22">
+          <Props />
+          <Anns>
+            <Ann msg="条件評価: (len == 2) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc srcRngStartln="19" srcRngStartPos="0" srcRngEndLn="20" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="19" ElType="." desc="for (i = 0; i &lt; len2; i++) {" rngLn="19">
+          <Props />
+          <Anns>
+            <Ann msg="ループ条件評価: (i &lt; len2) (false を仮定)" kind="condEval" />
+            <Ann msg="ループに入っていない" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc srcRngStartln="32" srcRngStartPos="0" srcRngEndLn="33" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="32" ElType="!" desc="Delete_space(calc);" rngLn="32">
+          <ElDescList>
+            <ElDesc srcRngStartln="74" srcRngStartPos="0" srcRngEndLn="75" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="74" ElType="!" desc="char *p = calc;" rngLn="74">
+              <Props>
+                <Prop key="Tracked variables" val="calc[len2]" />
+              </Props>
+              <Anns>
+                <Ann msg="汚染されたデータ: calc[len2]" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="76" srcRngStartPos="0" srcRngEndLn="77" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="76" ElType="." desc="while (*p != '\0') {" rngLn="76">
+              <Props>
+                <Prop key="Tracked variables" val="calc[len2], p[len2]" />
+              </Props>
+              <Anns>
+                <Ann msg="汚染されたデータ: calc[len2], p[len2]" kind="var" />
+                <Ann msg="ループ条件評価: (*p != 0) (false を仮定)" kind="condEval" />
+                <Ann msg="ループに入っていない" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="83" srcRngStartPos="0" srcRngEndLn="84" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="83" ElType="." desc="*calc = '\0';" rngLn="83">
+              <Props />
+            </ElDesc>
+            <ElDesc srcRngStartln="84" srcRngStartPos="0" srcRngEndLn="85" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="84" ElType="!" desc="return calc;" rngLn="84">
+              <Props />
+            </ElDesc>
+          </ElDescList>
+          <Props />
+        </ElDesc>
+        <ElDesc srcRngStartln="36" srcRngStartPos="0" srcRngEndLn="37" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="36" ElType="!" desc="int validate = Check_number(calc);" rngLn="36">
+          <ElDescList>
+            <ElDesc srcRngStartln="88" srcRngStartPos="0" srcRngEndLn="89" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="88" ElType="." desc="int leftbrackets = 0, rightbrackets = 0;" rngLn="88">
+              <Props>
+                <Prop key="Tracked variables" val="calc[len2]" />
+              </Props>
+              <Anns>
+                <Ann msg="汚染されたデータ: calc[len2]" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="89" srcRngStartPos="0" srcRngEndLn="90" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="89" ElType="!" desc="int len = strlen(calc);" rngLn="89">
+              <Props />
+            </ElDesc>
+            <ElDesc srcRngStartln="90" srcRngStartPos="0" srcRngEndLn="91" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="90" ElType="." desc="if (255 &lt; len)" rngLn="90">
+              <Props>
+                <Prop key="Tracked variables" val="calc[len]" />
+              </Props>
+              <Anns>
+                <Ann msg="汚染されたデータ: calc[len]" kind="var" />
+                <Ann msg="条件評価: (255 &lt; len) (false を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="94" srcRngStartPos="0" srcRngEndLn="95" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="94" ElType="." desc="else if (len == 0)" rngLn="94">
+              <Props />
+              <Anns>
+                <Ann msg="条件評価: (len == 0) (false)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="99" srcRngStartPos="0" srcRngEndLn="100" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="99" ElType="." desc="int i ;" rngLn="99">
+              <Props />
+            </ElDesc>
+            <ElDesc srcRngStartln="100" srcRngStartPos="0" srcRngEndLn="101" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="100" ElType="." desc="char c ,d;" rngLn="100">
+              <Props />
+            </ElDesc>
+            <ElDesc srcRngStartln="101" srcRngStartPos="0" srcRngEndLn="102" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="101" ElType="." desc="for ( i = 0; *(calc +i) != '\0'; i++)" rngLn="101">
+              <Props />
+              <Anns>
+                <Ann msg="ループ条件評価:(calc[i] != 0) (false)" kind="condEval" />
+                <Ann msg="ループに入っていない" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="143" srcRngStartPos="0" srcRngEndLn="144" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="143" ElType="." desc="for ( i = 0; i &lt; len; i++)" rngLn="143">
+              <Props />
+              <Anns>
+                <Ann msg="ループ条件評価:(i &lt; len) (true)" kind="condEval" />
+                <Ann msg="ループに入る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="145" srcRngStartPos="0" srcRngEndLn="146" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="145" ElType="." desc="if (calc[i] == '(')" rngLn="145">
+              <Props />
+              <Anns>
+                <Ann msg="条件評価: (calc[i] == 40) (false)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="149" srcRngStartPos="0" srcRngEndLn="150" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="149" ElType="." desc="else if (calc[i] == ')')" rngLn="149">
+              <Props />
+              <Anns>
+                <Ann msg="条件評価: (calc[i] == 41) (false)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="153" srcRngStartPos="0" srcRngEndLn="154" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="153" ElType="." desc="if (leftbrackets &lt; rightbrackets)" rngLn="153">
+              <Props />
+              <Anns>
+                <Ann msg="条件評価: (leftbrackets &lt; rightbrackets) (false)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="143" srcRngStartPos="0" srcRngEndLn="144" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="143" ElType="." desc="for ( i = 0; i &lt; len; i++)" rngLn="143">
+              <Props />
+              <Anns>
+                <Ann msg="ループ条件評価: (i &lt; len) (false を仮定)" kind="condEval" />
+                <Ann msg="ループに入っていない" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="158" srcRngStartPos="0" srcRngEndLn="159" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="158" ElType="." desc="if (leftbrackets != rightbrackets)" rngLn="158">
+              <Props />
+              <Anns>
+                <Ann msg="条件評価: (leftbrackets != rightbrackets) (false)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc srcRngStartln="165" srcRngStartPos="0" srcRngEndLn="166" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="165" ElType="!" desc="return 0;" rngLn="165">
+              <Props />
+            </ElDesc>
+          </ElDescList>
+          <Props />
+        </ElDesc>
+        <ElDesc srcRngStartln="38" srcRngStartPos="0" srcRngEndLn="39" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="38" ElType="." desc="if (validate == 0)" rngLn="38">
+          <Props />
+          <Anns>
+            <Ann msg="条件評価: (validate == 0) (true)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc srcRngStartln="40" srcRngStartPos="0" srcRngEndLn="41" srcRngEndPos="0" srcRngFile="calculation/calculation/ソース ファイル/Input_number.c" srcRnghash="1280190152" ln="40" ElType=".P" desc="printf(&quot;%s &quot;, calc);" rngLn="40">
+          <Props>
+            <Prop key="Tracked variables" val="calc[len2]" />
+          </Props>
+          <Anns>
+            <Ann msg="汚染されたデータ: calc[len2]" kind="var" />
+            <Ann msg="危険なメソッド呼び出し" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+  </StdViols>
+</mergePnt>

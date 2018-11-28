@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LibrarySymbols tool="C++Test" formatVersion="1.0" source="C:\unittest_calc\calculation\.cpptest\calculation\file-data\Input_number.cfc12b6b0\Input_number.obj">
+    <Symbol name="___local_stdio_printf_options" remangled="ZbM__local_stdio_printf_optionsX"/>
+    <Symbol name="__vfprintf_l" remangled="ZL_vfprintf_lX"/>
+    <Symbol name="_printf" remangled="ZGprintfX"/>
+    <Symbol name="_Input_number" remangled="ZMInput_numberX"/>
+    <Symbol name="_Delete_space" remangled="ZMDelete_spaceX"/>
+    <Symbol name="_Check_number" remangled="ZMCheck_numberX"/>
+</LibrarySymbols>

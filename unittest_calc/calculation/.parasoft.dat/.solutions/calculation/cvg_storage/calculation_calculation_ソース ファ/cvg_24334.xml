@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="calculation/calculation/ソース ファイル/calc.c" type="DC">
+  <VersionInfos>
+    <StorageInfo ownerId="DC" resultId="DecisionCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="DC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="38671817271084489 38671817271084488 38671817271084487 38671817271084490 38671817271084482 6122100540063946866 38671817271084486 38671817271084485 38671817271084484 38671817271084483 -6348131750669068412 -6348131750669068411 -6348131750669068410 -6348131750669068416 -6348131750669068415 -6348131750669068414 -6348131750669068413 -6348131750669068417 -6348131750669068418 1198826335403618990 1198826335403618991 1198826335403618992 1198826335403618993 1198826335403618994 1198826335403618995 6122100540063946867" uniqueId2MainId="CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-4705887764426374995 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-4705887764426374995" />
+  <Stats>
+    <ElemStats elem="calculation/calculation/ソース ファイル/calc.c;3;calculation" total="41" num="36" />
+  </Stats>
+  <ResultInfo cvgType="DC">
+    <DynCvg elem="calculation/calculation/ソース ファイル/calc.c;3;calculation">
+      <CtxCvg ctx="38671817271084489" ids="calculation:45>46 calculation:8>40 calculation:46>47 calculation:58>59 calculation:8>42 calculation:26>27 calculation:6>8 calculation:60>63 calculation:42>43 calculation:46>49 calculation:8>19 calculation:58>60 calculation:8>34 calculation:34>35 calculation:63>65 calculation:22>23 calculation:56>58 calculation:2>4 calculation:56>79 calculation:2>5 calculation:79>82 calculation:36>38 calculation:25>26 calculation:8>22 calculation:6>55 calculation:63>74" />
+      <CtxCvg ctx="38671817271084488" ids="calculation:63>67 calculation:22>23 calculation:56>58 calculation:2>4 calculation:45>46 calculation:56>79 calculation:46>47 calculation:8>40 calculation:58>59 calculation:2>5 calculation:79>82 calculation:26>27 calculation:8>42 calculation:60>63 calculation:6>8 calculation:26>29 calculation:25>26 calculation:42>43 calculation:6>55 calculation:46>49 calculation:8>22 calculation:58>60 calculation:8>19 calculation:63>65" />
+      <CtxCvg ctx="38671817271084487" ids="calculation:63>67 calculation:22>23 calculation:56>58 calculation:2>4 calculation:45>46 calculation:56>79 calculation:46>47 calculation:8>40 calculation:58>59 calculation:2>5 calculation:79>82 calculation:26>27 calculation:8>42 calculation:60>63 calculation:6>8 calculation:26>29 calculation:25>26 calculation:42>43 calculation:6>55 calculation:46>49 calculation:8>22 calculation:58>60 calculation:8>19" />
+      <CtxCvg ctx="38671817271084490" ids="calculation:63>69 calculation:56>58 calculation:2>4 calculation:45>46 calculation:56>79 calculation:46>47 calculation:8>40 calculation:58>59 calculation:2>5 calculation:79>82 calculation:8>42 calculation:36>37 calculation:60>63 calculation:6>8 calculation:36>38 calculation:42>43 calculation:6>55 calculation:46>49 calculation:58>60 calculation:8>19 calculation:8>34 calculation:34>35 calculation:69>72" />
+      <CtxCvg ctx="38671817271084482" ids="calculation:63>67 calculation:22>23 calculation:56>58 calculation:2>4 calculation:45>46 calculation:56>79 calculation:46>47 calculation:8>40 calculation:58>59 calculation:2>5 calculation:79>82 calculation:26>27 calculation:8>42 calculation:60>63 calculation:6>8 calculation:25>26 calculation:42>43 calculation:6>55 calculation:8>22 calculation:46>49 calculation:58>60 calculation:8>19" />
+      <CtxCvg ctx="6122100540063946866" ids="calculation:6>8 calculation:2>4 calculation:45>46 calculation:42>44 calculation:56>79 calculation:6>55 calculation:46>47 calculation:8>40 calculation:79>80 calculation:2>5 calculation:8>42 calculation:8>54" />
+      <CtxCvg ctx="38671817271084486" ids="calculation:22>23 calculation:56>58 calculation:2>4 calculation:45>46 calculation:56>79 calculation:46>47 calculation:8>40 calculation:58>59 calculation:2>5 calculation:79>82 calculation:26>27 calculation:8>42 calculation:60>63 calculation:6>8 calculation:25>26 calculation:42>43 calculation:6>55 calculation:8>22 calculation:46>49 calculation:58>60 calculation:8>19 calculation:63>65" />
+      <CtxCvg ctx="38671817271084485" ids="calculation:63>69 calculation:56>58 calculation:2>4 calculation:45>46 calculation:56>79 calculation:8>40 calculation:46>47 calculation:58>59 calculation:2>5 calculation:79>82 calculation:8>42 calculation:60>63 calculation:6>8 calculation:36>38 calculation:42>43 calculation:6>55 calculation:46>49 calculation:58>60 calculation:8>19 calculation:8>34 calculation:34>35 calculation:69>72" />
+      <CtxCvg ctx="38671817271084484" ids="calculation:56>58 calculation:2>4 calculation:45>46 calculation:56>79 calculation:8>40 calculation:46>47 calculation:58>59 calculation:2>5 calculation:79>82 calculation:8>42 calculation:60>63 calculation:6>8 calculation:36>38 calculation:42>43 calculation:6>55 calculation:46>49 calculation:58>60 calculation:8>19 calculation:8>34 calculation:63>74 calculation:34>35" />
+      <CtxCvg ctx="38671817271084483" ids="calculation:22>23 calculation:56>58 calculation:2>4 calculation:45>46 calculation:56>79 calculation:46>47 calculation:8>40 calculation:58>59 calculation:2>5 calculation:79>82 calculation:26>27 calculation:8>42 calculation:60>63 calculation:6>8 calculation:25>26 calculation:42>43 calculation:6>55 calculation:8>22 calculation:46>49 calculation:58>60 calculation:8>19 calculation:63>65" />
+      <CtxCvg ctx="-6348131750669068412" ids="calculation:6>8 calculation:2>4 calculation:45>46 calculation:42>44 calculation:56>79 calculation:6>55 calculation:46>47 calculation:8>40 calculation:79>80 calculation:2>5 calculation:8>42 calculation:8>54" />
+      <CtxCvg ctx="-6348131750669068411" ids="calculation:6>8 calculation:2>4 calculation:45>46 calculation:42>44 calculation:56>79 calculation:6>55 calculation:46>47 calculation:8>40 calculation:79>80 calculation:2>5 calculation:8>42 calculation:8>54" />
+      <CtxCvg ctx="-6348131750669068410" ids="calculation:6>8 calculation:2>4 calculation:45>46 calculation:42>44 calculation:56>79 calculation:6>55 calculation:46>47 calculation:8>40 calculation:79>80 calculation:2>5 calculation:8>42 calculation:8>54" />
+      <CtxCvg ctx="-6348131750669068416" ids="calculation:6>8 calculation:2>4 calculation:45>46 calculation:42>44 calculation:56>79 calculation:6>55 calculation:46>47 calculation:8>40 calculation:79>80 calculation:2>5 calculation:8>42 calculation:8>54" />
+      <CtxCvg ctx="-6348131750669068415" ids="calculation:6>8 calculation:2>4 calculation:45>46 calculation:42>44 calculation:56>79 calculation:6>55 calculation:46>47 calculation:8>40 calculation:79>80 calculation:2>5 calculation:8>42 calculation:8>54" />
+      <CtxCvg ctx="-6348131750669068414" ids="calculation:6>8 calculation:2>4 calculation:45>46 calculation:42>44 calculation:56>79 calculation:6>55 calculation:46>47 calculation:8>40 calculation:79>80 calculation:2>5 calculation:8>42 calculation:8>54" />
+      <CtxCvg ctx="-6348131750669068413" ids="calculation:6>8 calculation:2>4 calculation:45>46 calculation:42>44 calculation:56>79 calculation:6>55 calculation:46>47 calculation:8>40 calculation:79>80 calculation:2>5 calculation:8>42 calculation:8>54" />
+      <CtxCvg ctx="-6348131750669068417" ids="calculation:6>8 calculation:2>4 calculation:45>46 calculation:42>44 calculation:56>79 calculation:6>55 calculation:46>47 calculation:8>40 calculation:79>80 calculation:2>5 calculation:8>42 calculation:8>54" />
+      <CtxCvg ctx="-6348131750669068418" ids="calculation:6>8 calculation:2>4 calculation:45>46 calculation:42>44 calculation:56>79 calculation:6>55 calculation:46>47 calculation:8>40 calculation:79>80 calculation:2>5 calculation:8>42 calculation:8>54" />
+      <CtxCvg ctx="1198826335403618990" ids="calculation:63>67 calculation:22>23 calculation:56>58 calculation:2>4 calculation:45>46 calculation:56>79 calculation:46>47 calculation:8>40 calculation:58>59 calculation:2>5 calculation:79>82 calculation:26>27 calculation:8>42 calculation:60>63 calculation:6>8 calculation:25>26 calculation:42>43 calculation:42>44 calculation:6>55 calculation:8>22 calculation:46>49 calculation:58>60 calculation:8>19 calculation:22>25" />
+      <CtxCvg ctx="1198826335403618991" ids="calculation:63>69 calculation:45>46 calculation:8>40 calculation:46>47 calculation:58>59 calculation:8>42 calculation:6>8 calculation:60>63 calculation:42>43 calculation:42>44 calculation:46>49 calculation:8>19 calculation:58>60 calculation:8>34 calculation:34>35 calculation:69>72 calculation:56>58 calculation:2>4 calculation:56>79 calculation:2>5 calculation:79>82 calculation:36>37 calculation:36>38 calculation:6>55 calculation:63>74" />
+      <CtxCvg ctx="1198826335403618992" ids="calculation:63>67 calculation:63>69 calculation:45>46 calculation:8>40 calculation:46>47 calculation:58>59 calculation:8>42 calculation:26>27 calculation:6>8 calculation:60>63 calculation:42>43 calculation:42>44 calculation:46>49 calculation:8>19 calculation:58>60 calculation:8>34 calculation:34>36 calculation:69>72 calculation:63>65 calculation:22>23 calculation:56>58 calculation:2>4 calculation:56>79 calculation:2>5 calculation:79>82 calculation:36>38 calculation:25>26 calculation:8>22 calculation:6>55" />
+      <CtxCvg ctx="1198826335403618993" ids="calculation:63>69 calculation:56>58 calculation:2>4 calculation:45>46 calculation:56>79 calculation:8>40 calculation:46>47 calculation:58>59 calculation:2>5 calculation:79>82 calculation:8>42 calculation:60>63 calculation:6>8 calculation:36>38 calculation:42>43 calculation:6>55 calculation:46>49 calculation:58>60 calculation:8>19 calculation:8>34 calculation:34>35 calculation:69>72" />
+      <CtxCvg ctx="1198826335403618994" ids="calculation:63>67 calculation:63>69 calculation:45>46 calculation:8>40 calculation:46>47 calculation:58>59 calculation:8>42 calculation:26>27 calculation:6>8 calculation:26>29 calculation:60>63 calculation:42>43 calculation:46>49 calculation:8>19 calculation:58>60 calculation:8>34 calculation:34>36 calculation:69>72 calculation:22>23 calculation:56>58 calculation:2>4 calculation:56>79 calculation:2>5 calculation:79>82 calculation:36>38 calculation:25>26 calculation:8>22 calculation:6>55 calculation:63>74" />
+      <CtxCvg ctx="6122100540063946867" ids="calculation:6>8 calculation:2>4 calculation:45>46 calculation:42>44 calculation:56>79 calculation:6>55 calculation:46>47 calculation:8>40 calculation:79>80 calculation:2>5 calculation:8>42 calculation:8>54" />
+      <CtxCvg ctx="1198826335403618995" ids="calculation:63>67 calculation:22>23 calculation:56>58 calculation:2>4 calculation:45>46 calculation:56>79 calculation:46>47 calculation:8>40 calculation:58>59 calculation:2>5 calculation:79>82 calculation:26>27 calculation:8>42 calculation:60>63 calculation:6>8 calculation:26>29 calculation:25>26 calculation:42>43 calculation:6>55 calculation:46>49 calculation:8>22 calculation:58>60 calculation:8>19" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="DC" stat="true">
+    <StatCvg elem="calculation/calculation/ソース ファイル/calc.c;3;calculation" show="true">
+      <CvgElem id="calculation:63>67">
+        <Loc locStartln="115" locStartPos="11" locEndLn="115" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="118" locStartPos="12" locEndLn="119" locEndPos="10" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:63>69">
+        <Loc locStartln="115" locStartPos="11" locEndLn="115" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="120" locStartPos="12" locEndLn="121" locEndPos="19" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:45>46">
+        <Loc locStartln="84" locStartPos="10" locEndLn="84" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="85" locStartPos="8" locEndLn="85" locEndPos="39" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:8>40">
+        <Loc locStartln="26" locStartPos="10" locEndLn="26" locEndPos="17" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="73" locStartPos="3" locEndLn="75" locEndPos="9" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:46>47">
+        <Loc locStartln="85" locStartPos="8" locEndLn="85" locEndPos="39" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="86" locStartPos="5" locEndLn="87" locEndPos="11" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:58>59">
+        <Loc locStartln="102" locStartPos="6" locEndLn="102" locEndPos="46" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="103" locStartPos="3" locEndLn="104" locEndPos="9" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:26>27">
+        <Loc locStartln="41" locStartPos="8" locEndLn="41" locEndPos="39" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="42" locStartPos="5" locEndLn="42" locEndPos="11" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:60>61">
+        <Loc locStartln="108" locStartPos="7" locEndLn="108" locEndPos="14" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="109" locStartPos="4" locEndLn="110" locEndPos="12" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:8>42">
+        <Loc locStartln="26" locStartPos="10" locEndLn="26" locEndPos="17" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="78" locStartPos="7" locEndLn="78" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:60>63">
+        <Loc locStartln="108" locStartPos="7" locEndLn="108" locEndPos="14" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="112" locStartPos="3" locEndLn="115" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:6>8">
+        <Loc locStartln="25" locStartPos="13" locEndLn="25" locEndPos="20" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="26" locStartPos="10" locEndLn="26" locEndPos="17" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:26>29">
+        <Loc locStartln="41" locStartPos="8" locEndLn="41" locEndPos="39" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="45" locStartPos="4" locEndLn="48" locEndPos="16" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:42>43">
+        <Loc locStartln="78" locStartPos="7" locEndLn="78" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="79" locStartPos="4" locEndLn="81" locEndPos="8" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:42>44">
+        <Loc locStartln="78" locStartPos="7" locEndLn="78" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="83" locStartPos="3" locEndLn="83" locEndPos="18" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:46>49">
+        <Loc locStartln="85" locStartPos="8" locEndLn="85" locEndPos="39" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="89" locStartPos="4" locEndLn="92" locEndPos="16" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:69>70">
+        <Loc locStartln="121" locStartPos="8" locEndLn="121" locEndPos="19" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="123" locStartPos="5" locEndLn="124" locEndPos="12" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:58>60">
+        <Loc locStartln="102" locStartPos="6" locEndLn="102" locEndPos="46" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="108" locStartPos="7" locEndLn="108" locEndPos="14" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:8>19">
+        <Loc locStartln="26" locStartPos="10" locEndLn="26" locEndPos="17" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="28" locStartPos="3" locEndLn="30" locEndPos="9" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:8>34">
+        <Loc locStartln="26" locStartPos="10" locEndLn="26" locEndPos="17" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="56" locStartPos="7" locEndLn="56" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:34>36">
+        <Loc locStartln="56" locStartPos="7" locEndLn="56" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="61" locStartPos="3" locEndLn="62" locEndPos="92" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:34>35">
+        <Loc locStartln="56" locStartPos="7" locEndLn="56" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="57" locStartPos="4" locEndLn="59" locEndPos="8" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:69>72">
+        <Loc locStartln="121" locStartPos="8" locEndLn="121" locEndPos="19" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="126" locStartPos="4" locEndLn="126" locEndPos="10" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:63>65">
+        <Loc locStartln="115" locStartPos="11" locEndLn="115" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="116" locStartPos="12" locEndLn="117" locEndPos="10" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:22>23">
+        <Loc locStartln="34" locStartPos="7" locEndLn="34" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="35" locStartPos="4" locEndLn="38" locEndPos="19" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:56>58">
+        <Loc locStartln="101" locStartPos="13" locEndLn="101" locEndPos="18" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="102" locStartPos="6" locEndLn="102" locEndPos="46" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:2>4">
+        <Loc locStartln="15" locStartPos="15" locEndLn="15" locEndPos="20" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="16" locStartPos="2" locEndLn="16" locEndPos="24" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:45>51">
+        <Loc locStartln="84" locStartPos="10" locEndLn="84" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="94" locStartPos="3" locEndLn="94" locEndPos="9" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:56>79">
+        <Loc locStartln="101" locStartPos="13" locEndLn="101" locEndPos="18" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="133" locStartPos="5" locEndLn="133" locEndPos="13" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:63>77">
+        <Loc locStartln="115" locStartPos="11" locEndLn="115" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="130" locStartPos="3" locEndLn="130" locEndPos="9" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:79>80">
+        <Loc locStartln="133" locStartPos="5" locEndLn="133" locEndPos="13" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="134" locStartPos="2" locEndLn="135" locEndPos="10" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:2>5">
+        <Loc locStartln="15" locStartPos="15" locEndLn="15" locEndPos="20" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="18" locStartPos="1" locEndLn="25" locEndPos="12" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:25>31">
+        <Loc locStartln="40" locStartPos="10" locEndLn="40" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="50" locStartPos="3" locEndLn="52" locEndPos="9" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:79>82">
+        <Loc locStartln="133" locStartPos="5" locEndLn="133" locEndPos="13" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="139" locStartPos="1" locEndLn="144" locEndPos="8" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:8>54">
+        <Loc locStartln="26" locStartPos="10" locEndLn="26" locEndPos="17" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="96" locStartPos="1" locEndLn="96" locEndPos="2" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:36>37">
+        <Loc locStartln="62" locStartPos="7" locEndLn="62" locEndPos="92" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="63" locStartPos="4" locEndLn="66" locEndPos="16" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:36>38">
+        <Loc locStartln="62" locStartPos="7" locEndLn="62" locEndPos="92" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="68" locStartPos="3" locEndLn="70" locEndPos="9" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:25>26">
+        <Loc locStartln="40" locStartPos="10" locEndLn="40" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="41" locStartPos="8" locEndLn="41" locEndPos="39" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:6>55">
+        <Loc locStartln="25" locStartPos="13" locEndLn="25" locEndPos="20" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="98" locStartPos="1" locEndLn="101" locEndPos="12" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:8>22">
+        <Loc locStartln="26" locStartPos="10" locEndLn="26" locEndPos="17" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="34" locStartPos="7" locEndLn="34" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:63>74">
+        <Loc locStartln="115" locStartPos="11" locEndLn="115" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="127" locStartPos="12" locEndLn="128" locEndPos="10" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:22>25">
+        <Loc locStartln="34" locStartPos="7" locEndLn="34" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+        <Loc locStartln="40" locStartPos="10" locEndLn="40" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

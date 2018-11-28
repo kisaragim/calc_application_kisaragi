@@ -1,0 +1,30 @@
+$
+#<Template name="Heuristic value for unsigned int">
+#    <Inputs>
+#        <Input name="VALUE" type="string" userName="Value" >
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.generator.tja.ItemChooserProvider">
+#                <Argument name="VALUE" value="57"/>
+#                <Argument name="VALUE" value="56"/>
+#                <Argument name="VALUE" value="55"/>
+#                <Argument name="VALUE" value="54"/>
+#                <Argument name="VALUE" value="53"/>
+#                <Argument name="VALUE" value="52"/>
+#                <Argument name="VALUE" value="51"/>
+#                <Argument name="VALUE" value="50"/>
+#                <Argument name="VALUE" value="49"/>
+#                <Argument name="VALUE" value="48"/>
+#                <Argument name="VALUE" value="47"/>
+#                <Argument name="VALUE" value="45"/>
+#                <Argument name="VALUE" value="43"/>
+#                <Argument name="VALUE" value="42"/>
+#                <Argument name="VALUE" value="41"/>
+#                <Argument name="VALUE" value="40"/>
+#                <Argument name="VALUE" value="2"/>
+#                <Argument name="VALUE" value="1"/>
+#                <Argument name="VALUE" value="0"/>
+#            </Source>
+#        </Input>
+#    </Inputs>
+#</Template>
+\$
+$VALUE$$\$

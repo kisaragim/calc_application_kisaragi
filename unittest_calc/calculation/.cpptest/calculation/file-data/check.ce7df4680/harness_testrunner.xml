@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRunnerData version="1.0">
+    <StubInfo id="user_Check_number_1" type="user" user_id="Check_number" stub_guard="CPPTEST_USER_STUB_Check_number" callback="true" />
+</TestRunnerData>
+

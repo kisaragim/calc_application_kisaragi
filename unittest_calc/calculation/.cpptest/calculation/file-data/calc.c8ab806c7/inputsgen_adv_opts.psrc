@@ -1,0 +1,9 @@
+xharness.routineManager symbol_file=* command=setProperty property=ignored value=true
+xharness.routineManager "symbol_file=C:\unittest_calc\calculation\calculation\calc.c" command=setProperty property=ignored value=false
+xharness.variableManager symbol_file=* command=setProperty property=ignored value=true
+xharness.variableManager "symbol_file=C:\unittest_calc\calculation\calculation\calc.c" command=setProperty property=ignored value=false
+xharness.variableManager "symbol_file=C:\unittest_calc\calculation\calculation\calculation.h" command=setProperty property=ignored value=false
+xharness.dumpEnumsFromFile C:\unittest_calc\calculation\calculation\calc.c
+xharness.dumpEnumsFromFile C:\unittest_calc\calculation\calculation\calculation.h
+xharness.enumsDataFile C:\unittest_calc\calculation\.cpptest\calculation\file-data\calc.c8ab806c7\enums.xml
+edg.multibyte_chars_in_source_enabled TRUE

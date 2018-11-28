@@ -1,0 +1,24 @@
+<InputsDescription>
+    <Routine name="Input_number" dir="r_077870B0" />
+    <Routine name="Check_number" dir="r_077BD240" />
+    <Routine name="Delete_space" dir="r_077BCDE8" />
+    <Type name="char" dir="chr" />
+    <Type name="double" dir="dbl" />
+    <Type name="float" dir="flt" />
+    <Type name="int" dir="int" />
+    <Type name="long double" dir="ldbl" />
+    <Type name="long long" dir="llng" />
+    <Type name="long" dir="lng" />
+    <Type name="signed char" dir="schr" />
+    <Type name="short" dir="shrt" />
+    <Type name="string" dir="str" />
+    <Type name="unsigned char" dir="uchr" />
+    <Type name="unsigned int" dir="uint" />
+    <Type name="unsigned long long" dir="ullng" />
+    <Type name="unsigned long" dir="ulng" />
+    <Type name="unsigned short" dir="ushrt" />
+    <Type name="wstring" dir="wstr" />
+    <Type name="int" dir="t_072A6F08" />
+    <Type name="char" dir="t_072A5820" />
+    <Type name="char *" dir="t_072A9128" />
+</InputsDescription>

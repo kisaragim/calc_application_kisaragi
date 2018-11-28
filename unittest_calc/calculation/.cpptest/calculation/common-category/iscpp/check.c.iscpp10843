@@ -1,0 +1,6 @@
+fileName=C:\unittest_calc\calculation\calculation\stubs\check.c
+isCpp=
+compilerOpts=-I"C:\Program Files (x86)\Parasoft\C++test for Visual Studio\10.4\engine\runtime\include" -DPARASOFT_CPPTEST -I.
+compilerId=vc_14_1
+workingDir=C:\unittest_calc\calculation\calculation\
+advancedOptionsHash=1237154733

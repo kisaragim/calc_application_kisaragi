@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="calculation/calculation/ソース ファイル/main.c" type="SCC">
+  <VersionInfos>
+    <StorageInfo ownerId="SCC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="SCC" resultId="SCCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="38671817271084482 38671817271084486 38671817271084489 38671817271084485 38671817271084488 38671817271084484 38671817271084483 38671817271084487 1198826335403618990 1198826335403618991 1198826335403618992 1198826335403618993 38671817271084490 1198826335403618994 1198826335403618995" uniqueId2MainId="CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499" />
+  <Stats>
+    <ElemStats elem="calculation/calculation/ソース ファイル/main.c;12;output" total="2" num="1" />
+  </Stats>
+  <ResultInfo cvgType="SCC">
+    <DynCvg elem="calculation/calculation/ソース ファイル/main.c;12;output">
+      <CtxCvg ctx="38671817271084482" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="38671817271084486" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="38671817271084489" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="38671817271084485" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="38671817271084488" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="38671817271084484" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="38671817271084483" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="38671817271084487" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="1198826335403618990" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="1198826335403618991" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="1198826335403618992" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="1198826335403618993" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="1198826335403618994" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="38671817271084490" ids="output:1|1" vals="0" />
+      <CtxCvg ctx="1198826335403618995" ids="output:1|1" vals="0" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="SCC" stat="true">
+    <StatCvg elem="calculation/calculation/ソース ファイル/main.c;12;output" show="true">
+      <CvgElem id="output:1|1">
+        <Loc locStartln="16" locStartPos="5" locEndLn="16" locEndPos="14" locFile="calculation/calculation/ソース ファイル/main.c" />
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

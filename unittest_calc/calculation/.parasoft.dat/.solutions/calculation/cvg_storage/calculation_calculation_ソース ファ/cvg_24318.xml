@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="calculation/calculation/ソース ファイル/main.c" type="LC">
+  <VersionInfos>
+    <StorageInfo ownerId="LC" resultId="LineCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="LC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="38671817271084482 38671817271084486 38671817271084489 38671817271084485 38671817271084488 38671817271084484 38671817271084483 38671817271084487 1198826335403618990 1198826335403618991 1198826335403618992 1198826335403618993 38671817271084490 1198826335403618994 1198826335403618995" uniqueId2MainId="CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499" />
+  <Stats>
+    <ElemStats elem="calculation/calculation/ソース ファイル/main.c;12;output" total="5" num="4" />
+    <ElemStats elem="calculation/calculation/ソース ファイル/main.c;5;main" total="2" num="0" />
+  </Stats>
+  <ResultInfo cvgType="LC">
+    <DynCvg elem="calculation/calculation/ソース ファイル/main.c;12;output">
+      <CtxCvg ctx="38671817271084482" ids="22 16 13 14" />
+      <CtxCvg ctx="38671817271084486" ids="22 16 13 14" />
+      <CtxCvg ctx="38671817271084489" ids="22 16 13 14" />
+      <CtxCvg ctx="38671817271084485" ids="22 16 13 14" />
+      <CtxCvg ctx="38671817271084488" ids="22 16 13 14" />
+      <CtxCvg ctx="38671817271084484" ids="22 16 13 14" />
+      <CtxCvg ctx="38671817271084483" ids="22 16 13 14" />
+      <CtxCvg ctx="38671817271084487" ids="22 16 13 14" />
+      <CtxCvg ctx="1198826335403618990" ids="22 16 13 14" />
+      <CtxCvg ctx="1198826335403618991" ids="22 16 13 14" />
+      <CtxCvg ctx="1198826335403618992" ids="22 16 13 14" />
+      <CtxCvg ctx="1198826335403618993" ids="22 16 13 14" />
+      <CtxCvg ctx="1198826335403618994" ids="22 16 13 14" />
+      <CtxCvg ctx="38671817271084490" ids="22 16 13 14" />
+      <CtxCvg ctx="1198826335403618995" ids="22 16 13 14" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="LC" stat="true">
+    <StatCvg elem="calculation/calculation/ソース ファイル/main.c;5;main" file="calculation/calculation/ソース ファイル/main.c" show="true" lns="7 8" />
+    <StatCvg elem="calculation/calculation/ソース ファイル/main.c;12;output" file="calculation/calculation/ソース ファイル/main.c" show="true" lns="16 18 22 13 14" />
+  </ResultInfo>
+</CvgData>

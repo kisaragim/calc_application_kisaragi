@@ -1,0 +1,20 @@
+$
+#<Template name="A memory allocation...">
+#    <Properties>
+#        <Property key="FLATTEN_IN_WIZARD" />
+#    </Properties> 
+#    <Inputs>
+#        <Input name="FORWARD_INITIALIZER" type="string">
+#            <Source location="tja://alloc/init">
+#                <Argument name="VAR_NAME" value="$VAR_NAME$"/>
+#                <Argument name="INDENT" value="$INDENT$"/>
+#                <Argument name="TYPE_FIRST_PART" value="char *"/>
+#                <Argument name="TYPE_SECOND_PART" value=""/>
+#                <Argument name="POINTED_TYPE_FIRST_PART" value="char"/>
+#                <Argument name="POINTED_TYPE_SECOND_PART" value=""/>
+#            </Source>
+#        </Input>
+#    </Inputs>
+#</Template>
+\$
+$FORWARD_INITIALIZER$$\$

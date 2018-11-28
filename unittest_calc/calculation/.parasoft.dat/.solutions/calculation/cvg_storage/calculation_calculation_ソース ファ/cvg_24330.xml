@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="calculation/calculation/ソース ファイル/main.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="38671817271084482 38671817271084486 38671817271084489 38671817271084485 38671817271084488 38671817271084484 38671817271084483 38671817271084487 1198826335403618990 1198826335403618991 1198826335403618992 1198826335403618993 38671817271084490 1198826335403618994 1198826335403618995" uniqueId2MainId="CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499" />
+  <Stats>
+    <ElemStats elem="calculation/calculation/ソース ファイル/main.c;5;main" total="1" num="0" />
+    <ElemStats elem="calculation/calculation/ソース ファイル/main.c;12;output" total="2" num="1" />
+  </Stats>
+  <ResultInfo cvgType="PC">
+    <DynCvg elem="calculation/calculation/ソース ファイル/main.c;12;output">
+      <CtxCvg ctx="38671817271084482" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="38671817271084486" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="38671817271084489" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="38671817271084485" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="38671817271084488" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="38671817271084484" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="38671817271084483" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="38671817271084487" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="1198826335403618990" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="1198826335403618991" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="1198826335403618992" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="1198826335403618993" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="1198826335403618994" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="38671817271084490" ids="output" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="1198826335403618995" ids="output" cnts="2" paths="1;3;4" expect="1" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="calculation/calculation/ソース ファイル/main.c;12;output" show="true">
+      <CvgElem id="output" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="13" locStartPos="1" locEndLn="16" locEndPos="14" locFile="calculation/calculation/ソース ファイル/main.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4">
+          <PathBlckLoc locStartln="18" locStartPos="2" locEndLn="18" locEndPos="28" locFile="calculation/calculation/ソース ファイル/main.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="22" locStartPos="2" locEndLn="22" locEndPos="26" locFile="calculation/calculation/ソース ファイル/main.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="">
+          <PathBlckLoc locStartln="26" locStartPos="0" locEndLn="26" locEndPos="1" locFile="calculation/calculation/ソース ファイル/main.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="calculation/calculation/ソース ファイル/main.c;5;main" show="true">
+      <CvgElem id="main" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="7" locStartPos="1" locEndLn="8" locEndPos="8" locFile="calculation/calculation/ソース ファイル/main.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

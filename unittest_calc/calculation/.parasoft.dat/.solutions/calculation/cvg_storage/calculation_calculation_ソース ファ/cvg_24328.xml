@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="calculation/calculation/ソース ファイル/calc.c" type="FC">
+  <VersionInfos>
+    <StorageInfo ownerId="FC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="FC" resultId="FuncCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="38671817271084489 38671817271084488 38671817271084487 38671817271084490 38671817271084482 6122100540063946866 38671817271084486 38671817271084485 38671817271084484 38671817271084483 -6348131750669068412 -6348131750669068411 -6348131750669068410 -6348131750669068416 -6348131750669068415 -6348131750669068414 -6348131750669068413 -6348131750669068417 -6348131750669068418 1198826335403618990 1198826335403618991 1198826335403618992 1198826335403618993 1198826335403618994 1198826335403618995 6122100540063946867" uniqueId2MainId="CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-4705887764426374995 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-4705887764426374995" />
+  <Stats>
+    <ElemStats elem="calculation/calculation/ソース ファイル/calc.c;3;calculation" total="1" num="1" />
+  </Stats>
+  <ResultInfo cvgType="FC">
+    <DynCvg elem="calculation/calculation/ソース ファイル/calc.c;3;calculation">
+      <CtxCvg ctx="38671817271084489" ids="calculation" />
+      <CtxCvg ctx="38671817271084488" ids="calculation" />
+      <CtxCvg ctx="38671817271084487" ids="calculation" />
+      <CtxCvg ctx="38671817271084490" ids="calculation" />
+      <CtxCvg ctx="38671817271084482" ids="calculation" />
+      <CtxCvg ctx="6122100540063946866" ids="calculation" />
+      <CtxCvg ctx="38671817271084486" ids="calculation" />
+      <CtxCvg ctx="38671817271084485" ids="calculation" />
+      <CtxCvg ctx="38671817271084484" ids="calculation" />
+      <CtxCvg ctx="38671817271084483" ids="calculation" />
+      <CtxCvg ctx="-6348131750669068412" ids="calculation" />
+      <CtxCvg ctx="-6348131750669068411" ids="calculation" />
+      <CtxCvg ctx="-6348131750669068410" ids="calculation" />
+      <CtxCvg ctx="-6348131750669068416" ids="calculation" />
+      <CtxCvg ctx="-6348131750669068415" ids="calculation" />
+      <CtxCvg ctx="-6348131750669068414" ids="calculation" />
+      <CtxCvg ctx="-6348131750669068413" ids="calculation" />
+      <CtxCvg ctx="-6348131750669068417" ids="calculation" />
+      <CtxCvg ctx="-6348131750669068418" ids="calculation" />
+      <CtxCvg ctx="1198826335403618990" ids="calculation" />
+      <CtxCvg ctx="1198826335403618991" ids="calculation" />
+      <CtxCvg ctx="1198826335403618992" ids="calculation" />
+      <CtxCvg ctx="1198826335403618993" ids="calculation" />
+      <CtxCvg ctx="1198826335403618994" ids="calculation" />
+      <CtxCvg ctx="6122100540063946867" ids="calculation" />
+      <CtxCvg ctx="1198826335403618995" ids="calculation" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="FC" stat="true">
+    <StatCvg elem="calculation/calculation/ソース ファイル/calc.c;3;calculation" show="true">
+      <CvgElem id="calculation">
+        <Loc locStartln="3" locStartPos="5" locEndLn="3" locEndPos="16" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

@@ -1,0 +1,132 @@
+$
+#<Template name="Adapted memory buffer post-condition check">
+#    <Properties>
+#        <Property key="FLATTEN_IN_WIZARD" />
+#    </Properties> 
+#    <Inputs>
+#        <Input name="USE_DATA_SOURCES" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.UseDataSourcesProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="USE_WIZARD_ASSERTIONS" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.UseWizardAssertionsProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="MEM_BUFFER_POST_CONDITION_SIZE" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.MemBufferPostConditionSizeProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="DATA_SOURCE" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.DataSourceColumnCollector">
+#                <Argument name="VAR_NAME" value="A#M(sizeof(char))#$VAR_NAME$"/>
+#                <Argument name="VAR_VALUE" value="&quot;&quot;"/>
+#            </Source>
+#            <Properties>
+#                <Property key="DISABLE_IN_WIZARD"/>
+#                <Property key="USE_DATA_SOURCES"/>
+#                <Property key="GENERATE_POST_ASSERTIONS"/>
+#            </Properties>
+#         </Input>
+#        <Input name="EXPECTED_VALUE" type="string" >
+#            <Source location="tja://builtin/data/value" />
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.generator.tja.ItemChooserProvider">
+#				 <Argument name="VALUE" value="ACTUAL" />
+#				 <Argument name="PROP_PREFFERED" value="" />
+#            </Source>
+#            <Properties>
+#                <Property key="DISABLE_IN_AUTOGEN"/>
+#                <Property key="FLATTENED_GROUP"/>
+#            </Properties>
+#        </Input>
+#        <Input name="GENERATE_XML" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.GenerateXmlProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#    </Inputs>
+#</Template>
+\$
+$if GENERATE_XML == "TRUE":\$
+$if MEM_BUFFER_POST_CONDITION_SIZE != "":
+      size = MEM_BUFFER_POST_CONDITION_SIZE;
+  else:    
+      size = "sizeof(char)";
+  end    
+\$
+$if KIND == "POST_COND":\$
+$  if TYPENAME != "":\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_POST_CONDITION_MEM_BUFFER("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ), $size$);]]></code></step>
+$  else:\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_POST_CONDITION_MEM_BUFFER("$MSG_PREFIX$char * $VAR_NAME$", ( $VAR_NAME$ ), $size$);]]></code></step>
+$  end\$
+$elif KIND == "PREPOST_REPORT":\$
+$  if TYPENAME != "":\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_REPORT_MEM_BUFFER("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ), $size$);]]></code></step>
+$  else:\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_REPORT_MEM_BUFFER("$MSG_PREFIX$char * $VAR_NAME$", ( $VAR_NAME$ ), $size$);]]></code></step>
+$  end\$
+$elif KIND == "POST_ASSERT":\$
+$  if USE_DATA_SOURCES == "TRUE":\$
+<step id="AssertionStep"><type>CPPTEST_ASSERT_MEM_BUFFER_EQUAL</type><P1>CPPTEST_DS_GET_CSTR("A#M($size$)#$VAR_NAME$")</P1><P2>$VAR_NAME$</P2><P3>$size$</P3></step>
+$  elif USE_WIZARD_ASSERTIONS == "TRUE":\$
+$     if EXPECTED_VALUE == "ACTUAL":\$
+$       if TYPENAME != "":\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_POST_CONDITION_MEM_BUFFER("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ), $size$);]]></code></step>
+$       else:\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_POST_CONDITION_MEM_BUFFER("$MSG_PREFIX$char * $VAR_NAME$", ( $VAR_NAME$ ), $size$);]]></code></step>
+$       end\$
+$     else:\$
+<step id="AssertionStep"><type>CPPTEST_ASSERT_MEM_BUFFER_EQUAL</type><P1>$EXPECTED_VALUE$</P1><P2>$VAR_NAME$</P2><P3>$size$</P3></step>
+$     end\$
+$  else:\$
+<step id="AssertionStep"><type>CPPTEST_ASSERT_MEM_BUFFER_EQUAL</type><P1>""</P1><P2>$VAR_NAME$</P2><P3>$size$</P3></step>
+$  end\$
+$end\$
+$else:\$
+$if MEM_BUFFER_POST_CONDITION_SIZE != "":
+      size = MEM_BUFFER_POST_CONDITION_SIZE;
+  else:    
+      size = "sizeof(char)";
+  end    
+\$
+$if KIND == "POST_COND":\$
+$  if TYPENAME != "":\$
+$INDENT$CPPTEST_POST_CONDITION_MEM_BUFFER("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ), $size$);
+$  else:\$
+$INDENT$CPPTEST_POST_CONDITION_MEM_BUFFER("$MSG_PREFIX$char * $VAR_NAME$", ( $VAR_NAME$ ), $size$);
+$  end\$
+$elif KIND == "PREPOST_REPORT":\$
+$  if TYPENAME != "":\$
+$INDENT$CPPTEST_REPORT_MEM_BUFFER("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ), $size$);
+$  else:\$
+$INDENT$CPPTEST_REPORT_MEM_BUFFER("$MSG_PREFIX$char * $VAR_NAME$", ( $VAR_NAME$ ), $size$);
+$  end\$
+$elif KIND == "POST_ASSERT":\$
+$  if USE_DATA_SOURCES == "TRUE":\$
+$INDENT$CPPTEST_ASSERT_MEM_BUFFER_EQUAL(CPPTEST_DS_GET_CSTR("[OUT].$VAR_NAME$"), ( $VAR_NAME$ ), $size$ );
+$  elif USE_WIZARD_ASSERTIONS == "TRUE":\$
+$     if EXPECTED_VALUE == "ACTUAL":\$
+$       if TYPENAME != "":\$
+$INDENT$CPPTEST_POST_CONDITION_MEM_BUFFER("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ), $size$);
+$       else:\$
+$INDENT$CPPTEST_POST_CONDITION_MEM_BUFFER("$MSG_PREFIX$char * $VAR_NAME$", ( $VAR_NAME$ ), $size$);
+$       end\$
+$     else:\$
+$INDENT$CPPTEST_ASSERT_MEM_BUFFER_EQUAL($EXPECTED_VALUE$, ( $VAR_NAME$ ), $size$ );
+$     end\$
+$  else:\$
+$INDENT$/* CPPTEST_ASSERT_MEM_BUFFER_EQUAL("", ( $VAR_NAME$ ), $size$); */
+$  end\$
+$end\$
+$end\$

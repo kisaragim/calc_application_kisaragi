@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="calculation/calculation/ソース ファイル/calc.c" type="SCC">
+  <VersionInfos>
+    <StorageInfo ownerId="SCC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="SCC" resultId="SCCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="38671817271084489 38671817271084488 38671817271084487 38671817271084490 38671817271084482 6122100540063946866 38671817271084486 38671817271084485 38671817271084484 38671817271084483 -6348131750669068412 -6348131750669068411 -6348131750669068410 -6348131750669068416 -6348131750669068415 -6348131750669068414 -6348131750669068413 -6348131750669068417 -6348131750669068418 1198826335403618990 1198826335403618991 1198826335403618992 1198826335403618993 1198826335403618994 1198826335403618995 6122100540063946867" uniqueId2MainId="CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-4705887764426374995 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-4705887764426374995 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-576087162648775499 CPP://-4705887764426374995" />
+  <Stats>
+    <ElemStats elem="calculation/calculation/ソース ファイル/calc.c;3;calculation" total="36" num="30" />
+  </Stats>
+  <ResultInfo cvgType="SCC">
+    <DynCvg elem="calculation/calculation/ソース ファイル/calc.c;3;calculation">
+      <CtxCvg ctx="38671817271084489" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:26|1 calculation:46|1 calculation:22|1 calculation:58|2 calculation:34|1 calculation:2|1 calculation:56|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:36|3 calculation:36|2 calculation:25|1 calculation:58|1 calculation:36|1 calculation:79|1" vals="0 1 0 1 1 1 0 1 1 1 1 0 0 1 0 1 0 0 1 1 1 0" />
+      <CtxCvg ctx="38671817271084488" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:26|1 calculation:46|1 calculation:26|1 calculation:46|1 calculation:22|1 calculation:58|2 calculation:2|1 calculation:56|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:25|1 calculation:58|1 calculation:79|1" vals="0 1 0 1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 0" />
+      <CtxCvg ctx="38671817271084487" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:26|1 calculation:46|1 calculation:26|1 calculation:46|1 calculation:22|1 calculation:58|2 calculation:2|1 calculation:56|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:25|1 calculation:58|1 calculation:79|1" vals="0 1 0 1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 0" />
+      <CtxCvg ctx="38671817271084490" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:46|1 calculation:58|2 calculation:34|1 calculation:2|1 calculation:56|1 calculation:69|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:36|3 calculation:36|2 calculation:36|3 calculation:58|1 calculation:36|1 calculation:79|1" vals="0 1 0 1 1 0 1 1 1 0 0 0 1 0 1 0 0 1 1 1 0" />
+      <CtxCvg ctx="38671817271084482" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:26|1 calculation:46|1 calculation:46|1 calculation:22|1 calculation:58|2 calculation:2|1 calculation:56|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:25|1 calculation:58|1 calculation:79|1" vals="0 1 0 1 1 1 0 1 1 1 0 0 1 0 1 1 1 0" />
+      <CtxCvg ctx="6122100540063946866" ids="calculation:2|1 calculation:56|1 calculation:45|1 calculation:2|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:79|1" vals="1 0 1 0 1 0 0 1 1" />
+      <CtxCvg ctx="38671817271084486" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:26|1 calculation:46|1 calculation:46|1 calculation:22|1 calculation:58|2 calculation:2|1 calculation:56|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:25|1 calculation:58|1 calculation:79|1" vals="0 1 0 1 1 1 0 1 1 1 0 0 1 0 1 1 1 0" />
+      <CtxCvg ctx="38671817271084485" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:46|1 calculation:58|2 calculation:34|1 calculation:2|1 calculation:56|1 calculation:69|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:36|3 calculation:36|2 calculation:58|1 calculation:36|1 calculation:79|1" vals="0 1 0 1 1 0 1 1 1 0 0 0 1 0 1 0 0 1 1 0" />
+      <CtxCvg ctx="38671817271084484" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:46|1 calculation:58|2 calculation:34|1 calculation:2|1 calculation:56|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:36|3 calculation:36|2 calculation:58|1 calculation:36|1 calculation:79|1" vals="0 1 0 1 1 0 1 1 1 0 0 1 0 1 0 0 1 1 0" />
+      <CtxCvg ctx="38671817271084483" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:26|1 calculation:46|1 calculation:46|1 calculation:22|1 calculation:58|2 calculation:2|1 calculation:56|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:25|1 calculation:58|1 calculation:79|1" vals="0 1 0 1 1 1 0 1 1 1 0 0 1 0 1 1 1 0" />
+      <CtxCvg ctx="-6348131750669068412" ids="calculation:2|1 calculation:56|1 calculation:45|1 calculation:2|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:79|1" vals="1 0 1 0 1 0 0 1 1" />
+      <CtxCvg ctx="-6348131750669068411" ids="calculation:2|1 calculation:56|1 calculation:45|1 calculation:2|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:79|1" vals="1 0 1 0 1 0 0 1 1" />
+      <CtxCvg ctx="-6348131750669068410" ids="calculation:2|1 calculation:56|1 calculation:45|1 calculation:2|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:79|1" vals="1 0 1 0 1 0 0 1 1" />
+      <CtxCvg ctx="-6348131750669068416" ids="calculation:2|1 calculation:56|1 calculation:45|1 calculation:2|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:79|1" vals="1 0 1 0 1 0 0 1 1" />
+      <CtxCvg ctx="-6348131750669068415" ids="calculation:2|1 calculation:56|1 calculation:45|1 calculation:2|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:79|1" vals="1 0 1 0 1 0 0 1 1" />
+      <CtxCvg ctx="-6348131750669068414" ids="calculation:2|1 calculation:56|1 calculation:45|1 calculation:2|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:79|1" vals="1 0 1 0 1 0 0 1 1" />
+      <CtxCvg ctx="-6348131750669068413" ids="calculation:2|1 calculation:56|1 calculation:45|1 calculation:2|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:79|1" vals="1 0 1 0 1 0 0 1 1" />
+      <CtxCvg ctx="-6348131750669068417" ids="calculation:2|1 calculation:56|1 calculation:45|1 calculation:2|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:79|1" vals="1 0 1 0 1 0 0 1 1" />
+      <CtxCvg ctx="-6348131750669068418" ids="calculation:2|1 calculation:56|1 calculation:45|1 calculation:2|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:79|1" vals="1 0 1 0 1 0 0 1 1" />
+      <CtxCvg ctx="1198826335403618990" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:42|1 calculation:26|1 calculation:46|1 calculation:46|1 calculation:22|1 calculation:22|1 calculation:58|2 calculation:2|1 calculation:56|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:25|1 calculation:58|1 calculation:79|1" vals="0 1 0 1 0 1 1 0 0 1 1 1 0 0 1 0 1 1 1 0" />
+      <CtxCvg ctx="1198826335403618991" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:42|1 calculation:46|1 calculation:46|1 calculation:58|2 calculation:34|1 calculation:2|1 calculation:56|1 calculation:69|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:36|3 calculation:36|2 calculation:36|2 calculation:58|1 calculation:36|1 calculation:79|1" vals="0 1 0 1 0 1 0 1 1 1 0 0 0 1 0 1 0 1 0 1 1 0" />
+      <CtxCvg ctx="1198826335403618992" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:42|1 calculation:26|1 calculation:46|1 calculation:46|1 calculation:22|1 calculation:58|2 calculation:34|1 calculation:2|1 calculation:56|1 calculation:69|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:36|3 calculation:36|2 calculation:25|1 calculation:58|1 calculation:36|1 calculation:79|1" vals="0 1 0 1 0 1 1 0 1 1 0 1 0 0 0 1 0 1 0 0 1 1 1 0" />
+      <CtxCvg ctx="1198826335403618993" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:46|1 calculation:58|2 calculation:34|1 calculation:2|1 calculation:56|1 calculation:69|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:36|3 calculation:36|2 calculation:58|1 calculation:36|1 calculation:79|1" vals="0 1 0 1 1 0 1 1 1 0 0 0 1 0 1 0 0 1 1 0" />
+      <CtxCvg ctx="1198826335403618994" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:26|1 calculation:46|1 calculation:26|1 calculation:46|1 calculation:22|1 calculation:58|2 calculation:34|1 calculation:2|1 calculation:56|1 calculation:69|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:36|3 calculation:36|2 calculation:25|1 calculation:58|1 calculation:36|1 calculation:79|1" vals="0 1 0 1 1 1 0 0 1 1 0 1 0 0 0 1 0 1 0 0 1 1 1 0" />
+      <CtxCvg ctx="6122100540063946867" ids="calculation:2|1 calculation:56|1 calculation:45|1 calculation:2|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:46|1 calculation:79|1" vals="1 0 1 0 1 0 0 1 1" />
+      <CtxCvg ctx="1198826335403618995" ids="calculation:60|1 calculation:6|1 calculation:6|1 calculation:42|1 calculation:26|1 calculation:46|1 calculation:26|1 calculation:46|1 calculation:22|1 calculation:58|2 calculation:2|1 calculation:56|1 calculation:2|1 calculation:45|1 calculation:58|1 calculation:56|1 calculation:25|1 calculation:58|1 calculation:79|1" vals="0 1 0 1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 0" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="SCC" stat="true">
+    <StatCvg elem="calculation/calculation/ソース ファイル/calc.c;3;calculation" show="true">
+      <CvgElem id="calculation:26|1">
+        <Loc locStartln="41" locStartPos="8" locEndLn="41" locEndPos="39" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:79|1">
+        <Loc locStartln="133" locStartPos="5" locEndLn="133" locEndPos="13" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:58|2">
+        <Loc locStartln="102" locStartPos="27" locEndLn="102" locEndPos="46" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:58|1">
+        <Loc locStartln="102" locStartPos="6" locEndLn="102" locEndPos="25" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:36|1">
+        <Loc locStartln="62" locStartPos="7" locEndLn="62" locEndPos="20" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:36|2">
+        <Loc locStartln="62" locStartPos="25" locEndLn="62" locEndPos="56" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:36|3">
+        <Loc locStartln="62" locStartPos="60" locEndLn="62" locEndPos="91" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:25|1">
+        <Loc locStartln="40" locStartPos="10" locEndLn="40" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:34|1">
+        <Loc locStartln="56" locStartPos="7" locEndLn="56" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:2|1">
+        <Loc locStartln="15" locStartPos="15" locEndLn="15" locEndPos="20" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:46|1">
+        <Loc locStartln="85" locStartPos="8" locEndLn="85" locEndPos="39" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:42|1">
+        <Loc locStartln="78" locStartPos="7" locEndLn="78" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:56|1">
+        <Loc locStartln="101" locStartPos="13" locEndLn="101" locEndPos="18" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:45|1">
+        <Loc locStartln="84" locStartPos="10" locEndLn="84" locEndPos="23" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:6|1">
+        <Loc locStartln="25" locStartPos="13" locEndLn="25" locEndPos="20" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:22|1">
+        <Loc locStartln="34" locStartPos="7" locEndLn="34" locEndPos="21" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:60|1">
+        <Loc locStartln="108" locStartPos="7" locEndLn="108" locEndPos="14" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+      <CvgElem id="calculation:69|1">
+        <Loc locStartln="121" locStartPos="8" locEndLn="121" locEndPos="19" locFile="calculation/calculation/ソース ファイル/calc.c" />
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

@@ -1,0 +1,14 @@
+#Test suite file data.
+#Wed Nov 28 13:34:28 GMT+09:00 2018
+timestamp=1543379668026
+test_suite_context=../../../\u30BD\u30FC\u30B9 \u30D5\u30A1\u30A4\u30EB/Input_number.c
+test_case_contexts=char Delete_space(char *)@@TCC@@void Input_number(void)@@TCC@@int Check_number(char *)@@TCC@@
+test_suites=TestSuite_Input_number_c_9f5a5149,TestSuite_Input_number_c_9f5a5149_test_case^16'CPPTEST_DS("check")@@TCS@@TestSuite_Input_number_c_9f5a5149_delete^16'CPPTEST_DS("delete")@@TCS@@TestSuite_Input_number_c_9f5a5149_input^16'CPPTEST_DS("input")@@TCS@@@@TSS@@
+defined=true
+test_suite_included_by=../../../\u30BD\u30FC\u30B9 \u30D5\u30A1\u30A4\u30EB/Input_number.c
+registered=true
+test_suite_description=
+test_suite_names=TestSuite_Input_number_c_9f5a5149@@TSN@@
+fileVersion=5
+test_suite_additional_stubs=
+test_cases_properties=TestSuite_Input_number_c_9f5a5149,TestSuite_Input_number_c_9f5a5149_test_case;GRS\=@@PPS@@TCC\=int Check_number(char *)@@PPS@@TCD\=@@PPS@@TCCBCKS\=@@PPS@@TCE\=true@@PPS@@@@TCS@@TestSuite_Input_number_c_9f5a5149_delete;GRS\=@@PPS@@TCC\=char Delete_space(char *)@@PPS@@TCD\=@@PPS@@TCCBCKS\=@@PPS@@TCE\=true@@PPS@@@@TCS@@TestSuite_Input_number_c_9f5a5149_input;GRS\=@@PPS@@TCC\=void Input_number(void)@@PPS@@TCD\=@@PPS@@TCCBCKS\=void CppTest_StubCallback_TestSuite_Input_number_c_9f5a5149_input_1_Check_number(CppTest_StubCallInfo* stubCallInfo, int* __return, char * calc)\r\n{\r\n/* CPPTEST_TC_STEP_UID\:1.0 */\r\n*__return \= CPPTEST_DS_GET_INTEGER("[stub]Check_number");\r\n}@@PPS@@TCE\=true@@PPS@@@@TCS@@@@TSS@@
